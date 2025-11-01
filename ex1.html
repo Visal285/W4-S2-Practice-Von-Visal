@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox using !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: pink;
+            margin-left: 10em;
+            margin-right: 10em;
+        }
+        .container{
+            display: flex;
+            background: greenyellow;
+            flex-direction: column;
+            height: 100vh;
+            gap: 1em;
+          
+        }
+        header,footer{
+            background: gray;
+            height: 100px;
+
+        }
+        main{
+            background: gray;
+            flex-grow: 1;
+        }
+    </style>
+
+    <div class = "container">
+        <header>Header</header>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </div>
+
+
+</body>
+</html>
